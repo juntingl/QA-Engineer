@@ -1,5 +1,6 @@
 var Mocha = require('mocha');
 
+// mochawesome 配置报表
 var mocha = new Mocha({
     reporter: 'mochawesome',
     reporterOptions: {

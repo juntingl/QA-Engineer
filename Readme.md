@@ -223,6 +223,9 @@ $ npm run permance
 # 安装 
 $ npm install express --save
 
+# 启动server服务
+$ node app.js
+
 # 安装测试接口 工具
 $ npm install supertest --save-dev
 
@@ -232,4 +235,25 @@ $ npm install mocha --save-dev
 # 安装 Mochawesome 生成mocha报表
 $ npm install --save-dev mochawesome
 
+# 执行测试接口
+$ node 文件名
+
 ```
+
+## PhantomJS 不维护了, 新生出来一个 RizeJS 也是属于e2e
+
+[官方文档](https://rize.js.org/zh-CN/)
+
+```
+# 安装
+$ npm install puppeteer rize --save-dev
+
+# 运行 (也可以直接在package里配置下) 回车后,终端默默运行, 测试通过没有任何的信息反馈,测试不通过才会报错
+$ node ./e2e/npmjs.spec.js
+
+```
+
+**强大的测试工具**
+
+* f2etest [文档](https://github.com/alibaba/f2etest)
+* 
