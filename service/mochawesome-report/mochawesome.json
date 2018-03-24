@@ -1,0 +1,79 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-03-24T09:54:19.190Z",
+    "end": "2018-03-24T09:54:19.240Z",
+    "duration": 50,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "8c82e78e-6156-410a-85ac-9ea284acb0b5",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "0318b4e0-e09e-43dc-a3d3-2024f0a15f78",
+        "title": "测试Node接口: ",
+        "fullFile": "/Users/liujunting/AttackTheGiant/Note/Code/testDemo/service/router.spec.js",
+        "file": "/router.spec.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "test 接口测试 ",
+            "fullTitle": "测试Node接口:  test 接口测试 ",
+            "timedOut": false,
+            "duration": 27,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "request()\n.get('/test')\n.expect('Content-Type', /json/)\n.expect(200)\n.end(function (err, res) {\n    if (res.data == 'Hello World!') {\n        done();\n    } else {\n        done(err);\n    }\n});",
+            "err": {},
+            "isRoot": false,
+            "uuid": "04e8fca7-697d-4679-9bd5-6b725b302daa",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "04e8fca7-697d-4679-9bd5-6b725b302daa"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 27,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2018
+}

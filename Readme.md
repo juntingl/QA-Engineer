@@ -205,3 +205,31 @@ $ npm install benchmark --save-dev
 $ npm run permance
 
 ```
+
+# 接口测试
+
+先用 Express 搭建一个本地服务器,随便写一个接口;
+
+**测试接口工具: supertest**
+
+* Mocha 摩卡, 比较适合做异步测试
+
+[supertest文档](https://www.npmjs.com/package/supertest)
+[Mocha文档](https://mochajs.org/)
+[Mochawesome文档](https://www.npmjs.com/package/mochawesome)
+
+```
+
+# 安装 
+$ npm install express --save
+
+# 安装测试接口 工具
+$ npm install supertest --save-dev
+
+# 安装 Mocha
+$ npm install mocha --save-dev
+
+# 安装 Mochawesome 生成mocha报表
+$ npm install --save-dev mochawesome
+
+```
