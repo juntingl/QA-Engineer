@@ -1,0 +1,26 @@
+{
+  "name": "testDemo",
+  "version": "1.0.0",
+  "description": "JavaScript & QA 学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e": "node ./e2e/*.js",
+    "permance": "node ./permance/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "backstopjs": "^3.1.21",
+    "benchmark": "^2.1.4",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
